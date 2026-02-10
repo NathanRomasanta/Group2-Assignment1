@@ -1,0 +1,5 @@
+<number_list> ::= <number> ("," <number>)*
+<number> ::= <integer> | <decimal>
+<integer> ::= "-"? <digit>+
+<decimal> ::= "-"? <digit>+ "." <digit>+
+<digit> ::= [0-9]
